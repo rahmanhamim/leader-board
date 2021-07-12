@@ -86,7 +86,7 @@ top blogs styls
 .courses {
  display: grid;
  grid-template-columns: repeat(3, 1fr);
- grid-column-gap: 24px;
+ grid-column-gap: 100px;
 }
 
 .course-info {
@@ -132,9 +132,13 @@ top blogs styls
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 50px;
  }
  .course-info {
   justify-content: space-around;
+ }
+ .course-author {
+  margin-bottom: 0;
  }
 }
 /* tablet device */
@@ -148,5 +152,11 @@ top blogs styls
  }
  .blogs {
   grid-template-columns: repeat(1, 1fr);
+ }
+ .course {
+  margin-bottom: 50px;
+ }
+ .course-author {
+  margin-bottom: 0;
  }
 }
