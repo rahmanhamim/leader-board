@@ -86,9 +86,13 @@ top blogs styls
 .courses {
  display: grid;
  grid-template-columns: repeat(3, 1fr);
- grid-column-gap: 100px;
+ grid-column-gap: 20px;
 }
-
+.course {
+ padding: 10px;
+ border-radius: 20px;
+ box-shadow: 8px 8px 21px #e4e4e4, -8px -8px 21px #f0f0f0;
+}
 .course-info {
  display: flex;
  align-items: center;
